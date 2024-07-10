@@ -148,7 +148,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="header">
-        <span className="fa-solid fa-dice"></span> Meme Generator
+        <span className="fa-solid fa-dice"></span> Meme Generator 😄
       </header>
       <main>
         <Sidebar>
@@ -165,14 +165,14 @@ export default function App() {
               />
             </div>
           ) : (
-            <h2> Select Meme On Left to Get started </h2>
+            <h2 className="text-[#0a803b]"> Select Meme On Left to Get started </h2>
           )}
         </div>
         <div className="inputs">
           {renderInputs()}
           <button className="download" onClick={downloadMeme}>
             {" "}
-            Download 🖼{" "}
+            Download {" "}
           </button>
         </div>
       </main>
